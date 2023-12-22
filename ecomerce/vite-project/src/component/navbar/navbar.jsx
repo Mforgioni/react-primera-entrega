@@ -1,4 +1,4 @@
-import Carrito from "../carrito/carrito"
+import CardWidget from "../CardWidget/CardWidget"
 
 const NavBar = () => {
 
@@ -10,7 +10,7 @@ return (
             <button className="nav-boton">Tablet</button>
             <button className="nav-boton">NoteBooks</button>
         </div>
-        <Carrito />
+        <CardWidget />
     </nav>
 )
 

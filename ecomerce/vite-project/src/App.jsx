@@ -1,5 +1,5 @@
 
-import ItenContainer from './component/itemContainer/itemcontainer'
+import ItemListConteiner from './component/itemListContainer/itemlistcontainer'
 import NavBar from './component/navbar/navbar'
 import './App.css'
 
@@ -9,7 +9,7 @@ function App() {
   return (
       <div className='App'>
          <NavBar />
-         <ItenContainer greeting= {'¡¡¡Bienvenidos!!!'} />
+         <ItemListConteiner greeting= {'¡¡¡Bienvenidos!!!'} />
       </div>
   )
 }
